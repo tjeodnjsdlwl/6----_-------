@@ -1,0 +1,41 @@
+/* ttf - 트루타입 
+otf - 오픈트루타입 
+
+woff - 모던브라우저지원
+*woff2 - 모던브라우저지원 woff의 최대 50% 압축
+
+eot - 익스
+svg -  
+
+100
+200
+    300 ligth
+    400 normal reguler
+    500 medium
+    600 semi
+    700 bold 
+800 extra
+900 black
+*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/Gilroy-Regular.woff2) format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/Gilroy-Medium.woff2) format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/Gilroy-SemiBold.woff2) format('woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/Gilroy-Bold.woff2) format('woff');
+    font-weight: 700;
+}
+
+

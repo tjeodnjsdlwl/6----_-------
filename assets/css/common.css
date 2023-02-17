@@ -1,0 +1,115 @@
+
+
+.common-inner{
+  margin: 0 auto;
+  width: 1152px;
+}
+.hidden{
+  overflow: hidden;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+/* blind */
+.blind{
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+
+.point{position: relative;}
+.point::after{
+  position: absolute;
+  top: -2px;
+  right: -7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ee5728;
+  content: "";
+}
+
+
+/* 더보기 */
+.sc-collect .collect-more{
+  padding: 0 38px;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 65px;
+}
+.sc-collect .collect-more a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  height: 52px;
+  border: 1px solid #e0e0e0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 52px;
+  color: #222;
+}
+.sc-collect .collect-more .ico-more{
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: url(../img/ico-more.png) no-repeat;
+  background-size: 19px 19px;
+  background-position: center;
+}
+
+
+
+.prd-list{}
+.prd-list .prd-item{}
+
+.prd-list .img-box{ position: relative; }
+.prd-list .img-box .icons{ display: flex; position: absolute; top: 0;left: 0; }
+.prd-list .img-box .icons .rank{ width: 25px; height: 24px; line-height: 24px; background-color: #000; color: #fff; font-size: 15px; text-align: center; }
+.prd-list .img-box .icons img{ width: 37px; }
+.prd-list .img-box .img{ width: 100%; }
+.prd-list .text-wrap .review{ display: block; color:var(--color-red); font-weight: 600; font-size: 13px; line-height: 13px; }
+.prd-list .text-wrap{ padding: 15px 10px 0; }
+.prd-list .text-wrap .title{ width: 100%; padding: 10px 0; font-size: 14px; letter-spacing: -0.05em; line-height: 17px; }
+.prd-list .text-wrap .price-box {display: flex;}
+.prd-list .text-wrap .price-box .discount{ color:var(--color-red); font-weight: 700; margin-right: 5px; }
+.prd-list .text-wrap .price-box .curr{ color: #333; font-size: 15px; line-height: 16px; font-weight: 500; letter-spacing: -0.03em; }
+.prd-list .text-wrap .price-box .ori{ font-size: 13px; line-height: 18px; font-weight: 400; color: #8d8d8d; margin-left: 5px; text-decoration-line: line-through; }
+.prd-list .text-wrap .etc-box{ display: flex; flex-wrap: wrap; margin-top: 10px; gap: 5px; }
+.prd-list .text-wrap .etc-box .etc{ border: 1px solid rgba(142,31,41,0.5); padding: 5px 6px; line-height: 1; opacity: 1; font-size: 9px; line-height: 9px; font-weight:500; letter-spacing: -0.05em; color:var(--color-red); }
+
+
+
+
+.prd-list.list1{ display: flex; flex-wrap: wrap; gap: 50px 10px; }
+.prd-list.list1 .prd-item{ width: calc(50% - 5px); }
+
+
+.prd-list.list2{ padding: 0 16px; }
+.prd-list.list2 .prd-item{
+  padding: 14px 0;
+}
+.prd-list.list2 .prd-item+.prd-item{
+  border-top: 1px solid #000;
+}
+.prd-list.list2 .prd-item > a{ display: flex; }
+.prd-list.list2 .img-box{ width: 110px; }
+.prd-list.list2 .text-wrap{ flex: 1; padding: 0 28px; }
+
+
+
+
+
+[class*="sc-"] .headline{
+  font-size: 20px;
+  line-height: 29px;
+  color: #212326;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+}

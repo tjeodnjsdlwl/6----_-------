@@ -1,0 +1,375 @@
+.main{
+  width: 100%;
+}
+
+
+
+
+
+/* 메인 슬라이드 */
+.sc-visual{
+  height: calc(100vh - 140px);
+  
+}
+
+.sc-visual .visual-slide{
+  height: 100%;
+}
+.sc-visual .visual-slide .swiper-slide a{
+  display: block;
+  height: 100%;
+}
+.sc-visual .visual-slide .swiper-slide img{
+  height: 100%;
+  width: 100%;
+  object-fit : cover;
+}
+.sc-visual .swiper-slide .text-box{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding:95px 35px;
+  width: 100%;
+}
+.sc-visual .swiper-slide .text-box .title{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.25;
+  letter-spacing: -1.3px;
+  color: #fff;
+}
+.sc-visual .swiper-slide .text-box .decs{
+  font-weight: 400;
+  padding-top: 15px;
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+  color: #fff;
+}
+
+.sc-visual .swiper-pagination{
+  bottom: 37px;
+  width: 171px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sc-visual .visual-slide .swiper-pagination-bullet{
+  background: #fff;
+  width: 20px;
+  height: 2px;
+  margin: 0;
+  border-radius: 0;
+}
+.sc-visual .swiper-pagination-bullet-active{}
+
+
+ /* (A) */
+.sc-collect .headline{
+  padding: 50px 16px 22px;
+}
+.sc-collect .collect-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.sc-collect .collect-list .collect-item{
+  width: 50%;
+  padding-right: 5px;
+  padding-bottom: 50px;
+}
+.sc-collect .collect-list .collect-item:nth-child(2n){
+  padding-left: 5px;
+  padding-right: 0;
+}
+.sc-collect .collect-list .collect-item img{
+  max-width: 100%;
+  height: auto;
+}
+
+.sc-collect .collect-item .text-wrap{
+  padding: 15px 5% 0;
+}
+
+
+
+/* 쿠폰 받기 img */
+.sc-coupon-aside{
+  width: 100%;
+  margin: 0 auto;
+}
+.sc-coupon-aside img{
+  width: 100%;
+}
+
+
+
+/* (B) */
+.sc-board {
+  margin-top: 20px;
+}
+.sc-board .board-main-img img{
+  width: 100%;
+
+}
+.sc-board .headline-area{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px 20px;
+}
+.sc-board .headline-area .headline{
+  font-size: 26px;
+  line-height: 35px;
+  color: #333;
+  font-weight: 700;
+}
+.sc-board .headline-area .desc{
+  padding: 14px 0 28px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.05em;
+  color: #333;
+  font-weight: 400;
+}
+
+
+.sc-board .btn-go{
+  position: relative;
+  width: 116px;
+  background-color: #1e1e1e;
+  border-radius: 2px;
+  border: 1px solid #1e1e1e;
+  color: #fff;
+  padding: 8px 18px;
+
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+
+  background-image: url("../img/ico-arrow.png");
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+  background-position: calc(100% - 18px) center;
+}
+
+
+.sc-board .group-board{
+  padding: 0 16px;
+}
+.sc-board .group-board .board-list{
+  padding: 20px 0;
+}
+.sc-board .group-board .board-area+.board-area{
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+.sc-board .group-board .board-area{
+  display: flex;
+  width: 451px;
+}
+.sc-board .group-board .board-area img{
+  width: 110px;
+  height: 165px;
+  object-fit: cover;
+}
+
+.sc-board .board-area .text-wrap{
+  margin: 0 28px;
+  width: 285px;
+}
+
+
+
+
+/* 브랜드 스토리 img */
+.sc-brendstory{
+  width: 100%;
+  height: 100%;
+}
+.sc-brendstory .group-brendstory{
+  display: block;
+  position: relative;
+  padding: 56px 20px;
+  background-color: #C86733;
+}
+
+.sc-brendstory .title{
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  margin: 0 auto 10px;
+  font-weight: 400;
+  border-bottom: 1.5px solid #fff;
+  padding-bottom: 5px;
+  line-height: 1.2;
+}
+.sc-brendstory .title-slogan{
+  font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #fff;
+    font-weight: 700;
+}
+.sc-brendstory .desc{
+  padding: 10px 0 5px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #fff;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+.sc-brendstory .btn-details{
+  display: inline-block;
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+
+
+
+/* 추천 상품 슬라이드 */
+
+.sc-recomm-produc .headline-area{
+  padding: 50px 30px 22px 20px;
+}
+.sc-recomm-produc .headline-area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sc-recomm-produc .headline{
+  font-size: 20px;
+  line-height: 29px;
+  color: #333;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+}
+.recomm-slide{
+  margin-left: 20px;
+}
+.sc-recomm-produc .text-wrap{
+  padding: 15px 10px 0;
+
+}
+
+.sc-recomm-produc .link-more{
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+
+}
+.sc-recomm-produc .link-more .ico-more{
+  background-image: url(../img/ico-more-arrow.png);
+  width: 15px;
+  height: 11px;
+  margin-left: 3px;
+  margin-bottom: 2px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+  background-position: center;
+}
+
+
+/* 하단 배너 img */
+.bottom-banner{
+  padding-top: 70px;
+  width: 100%;
+}
+
+.bottom-banner .sc-membership{
+  position: relative;
+  width: 100%;
+  height: 283px;
+}
+.bottom-banner .sc-mall{
+  position: relative;
+  width: 100%;
+  height: 328px;
+}
+
+.bottom-banner .sc-membership .text-wrap{
+  position: absolute;
+  padding: 65px 20px;
+  left: 0;
+  bottom: 0;
+  
+  width: 100%;
+  height: 100%;
+}
+.bottom-banner .sc-mall .text-wrap{
+  position: absolute;
+  padding: 74px 20px 80px;
+  left: 0;
+  bottom: 0;
+}
+
+.bottom-banner .headline{
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.bottom-banner .desc{
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #fff;
+  padding: 15px 0 30px;
+  box-sizing: border-box;
+}
+.bottom-banner .btn-details{
+  width: 122px;
+  padding: 7px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+
+
+
+.sc-category{}
+.sc-category .group-recomm{
+  position: relative;
+}
+.sc-category .group-recomm .link-more{
+  position: absolute;
+  top: 0;right: 0;
+}
+.sc-category .cate-slide{
+  padding: 0 20px;
+}
+
+
+
+
+.sc-info{}
+.sc-info+.sc-info{margin-top: 20px;}
+.sc-info a{position: relative;
+display: block;
+padding: 65px 20px;
+}
+.sc-info .bg{
+  position: absolute;
+  top: 0;left: 0;width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
